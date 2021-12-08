@@ -1,0 +1,13 @@
+com\mycompany\mavenproject1\PrimaryController.class
+com\mycompany\osomhe\Tricycle.class
+com\mycompany\osomhe\Cycle.class
+com\mycompany\osomhe\UniFactory.class
+com\mycompany\mavenproject1\App.class
+com\mycompany\osomhe\Bicycle.class
+com\mycompany\osomhe\Interface.class
+com\mycompany\mavenproject1\SecondaryController.class
+com\mycompany\osomhe\CycleFactory.class
+com\mycompany\osomhe\BiFactory.class
+com\mycompany\osomhe\TriFactory.class
+module-info.class
+com\mycompany\osomhe\Unicycle.class
