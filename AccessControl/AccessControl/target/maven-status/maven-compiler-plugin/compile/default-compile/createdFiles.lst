@@ -1,0 +1,8 @@
+com\mycompany\accesscontrol\Test2.class
+access\foreign\Foreign.class
+Connection.class
+access\local\PackagedClass.class
+Test.class
+ConnectionManager.class
+com\mycompany\accesscontrol\Connection.class
+com\mycompany\accesscontrol\ConnectionManager.class

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.mycompany.everythingisanobject","l":"Overloading"},{"p":"com.mycompany.everythingisanobject","l":"Scope"}];updateSearchResults();

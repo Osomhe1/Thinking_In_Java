@@ -1,0 +1,45 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/OSIOKE/OneDrive/Desktop/Think in Java/EverythingIsAnObject/EverythingIsAnObject/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/OSIOKE/OneDrive/Desktop/Think in Java/EverythingIsAnObject/EverythingIsAnObject/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'EverythingIsAnObject 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'EverythingIsAnObject 1.0-SNAPSHOT API'
+com.mycompany.everythingisanobject
+'C:/Users/OSIOKE/OneDrive/Desktop/Think in Java/EverythingIsAnObject/EverythingIsAnObject/src/main/java/com/mycompany/everythingisanobject/Overloading.java'
+'C:/Users/OSIOKE/OneDrive/Desktop/Think in Java/EverythingIsAnObject/EverythingIsAnObject/src/main/java/com/mycompany/everythingisanobject/Scope.java'
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\src\main\java = 1638890450035
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\allclasses-index.html = 1638892188266
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\allpackages-index.html = 1638892188282
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\element-list = 1638892186082
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\help-doc.html = 1638892189769
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\index-all.html = 1638892189030
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\index.html = 1638892189561
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\jquery-ui.overrides.css = 1638892191732
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\member-search-index.js = 1638892188310
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\module-search-index.js = 1638892188286
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\overview-tree.html = 1638892187838
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\package-search-index.js = 1638892188298
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\script.js = 1638892190271
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\search.js = 1638892190946
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\stylesheet.css = 1638892190186
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\tag-search-index.js = 1638892188314
+C:\Users\OSIOKE\OneDrive\Desktop\Think in Java\EverythingIsAnObject\EverythingIsAnObject\target\site\apidocs\type-search-index.js = 1638892188303
