@@ -22,8 +22,8 @@ public class UseCaseTracker {
  for(Method m : cl.getDeclaredMethods()) {
  useCases uc = m.getAnnotation(useCases.class);
  if(uc != null) {
- System.out.println("Found Use Case:" + uc.id() +
- " " + uc.description());
+ System.out.println(uc.description() + "Found Use Case:" + uc.id() +
+         " ");
  useCases.remove(new Integer(uc.id()));
  }
  }
@@ -39,4 +39,18 @@ public class UseCaseTracker {
  Collections.addAll(useCases, 47, 48, 49, 50);
  trackUseCases(useCases, PasswordUtils.class);
  }
+
+    private static class useCases {
+
+        public useCases() {
+        }
+
+        private String description() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        private String id() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+    }
 }

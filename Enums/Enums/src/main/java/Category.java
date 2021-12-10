@@ -1,43 +1,38 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
- */
 
-/**
- *
- * @author OSOMHE
- */
-
-//package enumerated;
-//import static Input.STOP;
-//import static Input.DIME;
-//import static Input.DOLLAR;
-//import static Input.NICKEL;
-//import static Input.QUARTER;
-import java.util.*;
+//import default_package.VendingMachine;
 
 
-
+import java.util.EnumMap;
 
 public enum Category {
     MONEY(NICKEL, DIME, QUARTER, DOLLAR),
-    ITEM_SELECTION(TOOTHPASTE, CHIPS, SODA, SOAP),
+    ITEM_SELECTION(PRODUCT),
     QUIT_TRANSACTION(ABORT_TRANSACTION),
     SHUT_DOWN(STOP);
 
-    private Input[] values;
-    Category(Input... types) { values = types; }
-    private static EnumMap<Input,Category> categories = new EnumMap<Input,Category>(Input.class);
+    private static EnumMap<VendingMachine.Input,Category> categories = new EnumMap<VendingMachine.Input,Category>(VendingMachine.Input.class);
 
     static {
         for(Category c : Category.class.getEnumConstants()) {
-            for(Input type : c.values){
+            for(VendingMachine.Input type : c.values){
                 categories.put(type, c);
             }
         }
     }
 
-    public static Category categorize(Input input) {
+    public static Category categorize(VendingMachine.Input input) {
         return categories.get(input);
+    }
+
+    static int categorize(Input input) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private VendingMachine.Input[] values;
+    Category(VendingMachine.Input... types) { values = types; }
+
+    public static void main(String[] args){
+        System.out.println(Category.MONEY);
+        System.out.println(Category.categories);
     }
 }

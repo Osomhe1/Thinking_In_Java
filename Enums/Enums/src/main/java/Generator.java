@@ -8,5 +8,7 @@
  * @author OSOMHE
  */
 interface Generator<T> {
+
+    public Input next();
     
 }

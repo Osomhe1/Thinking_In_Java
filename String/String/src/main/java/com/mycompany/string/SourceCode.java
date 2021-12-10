@@ -9,7 +9,7 @@ public class SourceCode {
             s = mInput.group(1);
         s =s.replaceAll("{2,}", "");
         s= s.replaceAll("(?m)^ +", "");
-        print(s);
+        System.out.print(s);
         s = s.replaceFirst("[class]", "(CLASS)");
         StringBuffer sbuf = new StringBuffer();
         Pattern p = Pattern.compile("[class]");
@@ -17,6 +17,12 @@ public class SourceCode {
         while(m.find())
             m.appendReplacement(sbuf, m.group().toUpperCase());
         m.appendTail(sbuf);
-        print(sbuf);
+        System.out.print(sbuf);
+    }
+
+    private static class TextFIle {
+
+        public TextFIle() {
+        }
     }
 }

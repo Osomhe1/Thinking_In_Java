@@ -39,7 +39,7 @@ public class WordsCounter {
 
     public static void main(String args[]){
         Map<String, Integer> words = new HashMap<String, Integer>();
-        countWords("\\W+", words);
+        countWords("\\w+", words);
         System.out.println(words);
 
     }

@@ -1,4 +1,5 @@
 
+//import static Second_Question.VendingMachine.Category;
 import java.util.EnumMap;
 
 /*
@@ -10,7 +11,7 @@ import java.util.EnumMap;
  *
  * @author OSOMHE
  */
-import java.util.*;
+//import java.util.*;
 
 public class VendingMachine {
     enum StateDuration { TRANSIENT } // Tagging enum
@@ -23,6 +24,11 @@ public class VendingMachine {
         State(StateDuration trans) { isTransient = true; }
         
     }
+    
+    
+
+    
+    
     
     private State state = State.RESTING;
     private int amount = 0;
